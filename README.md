@@ -11,11 +11,11 @@ Make sure you've included the FontAwesome package in your `package.json`.
 **A button with an icon**
 
 `<Button
-  text="I'm a button!"
-  func={() => console.log("hello world!")}
-  icons={[
-    { icon: faChevronRight },
-  ]}
+&nbsp;&nbsp;text="I'm a button!"
+&nbsp;&nbsp;func={() => console.log("hello world!")}
+&nbsp;&nbsp;icons={[
+&nbsp;&nbsp;&nbsp;&nbsp;{ icon: faChevronRight },
+&nbsp;&nbsp;]}
 />`
 
 **A button with extra icons**
