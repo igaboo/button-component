@@ -9,7 +9,7 @@ Make sure you've included the FontAwesome package in your `package.json`.
 # Examples
 
 **A button with an icon**
-```
+```javascript
 <Button
   text="I'm a button!"
   func={() => console.log("hello world!")}
@@ -20,7 +20,7 @@ Make sure you've included the FontAwesome package in your `package.json`.
 ```
 
 **A button with extra icons**
-```
+```javascript
 <Button
   text="I'm the primary button, with a few extras!"
   func={() => console.log("hello world!")}
@@ -34,7 +34,7 @@ Make sure you've included the FontAwesome package in your `package.json`.
 ```
 
 **A button with the icon on the left**
-```
+```javascript
 <Button
   text="Caution, it's too easy!"
   func={() => console.log("hello world!")}
@@ -46,7 +46,7 @@ Make sure you've included the FontAwesome package in your `package.json`.
 ```
 
 **A text-only button**
-```
+```javascript
 <Button
   text="Nothing going on here."
   func={() => console.log("hello world!")}
@@ -54,7 +54,7 @@ Make sure you've included the FontAwesome package in your `package.json`.
 ```
 
 **An icon-only button**
-```
+```javascript
 <Button
   func={() => console.log("hello world!")}
   icons={[
