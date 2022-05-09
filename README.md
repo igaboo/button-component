@@ -2,9 +2,12 @@
 
 A simple button component built for Next.js using React and Sass. It uses FontAwesome icons.
 
-Clone both `Buttons.js` and `Buttons.module.scss` into your project, and import the Button component `import { Button } from "./Buttons";`.
+Clone both `Buttons.js` and `Buttons.module.scss` into your project, and import the Button component:
+```javascript
+import Button from "./Buttons";
+```
 
-Make sure you've included the FontAwesome package in your `package.json`.
+Make sure you've included the FontAwesome package in your `package.json`, as well as any icons you need.
 
 # Examples
 
