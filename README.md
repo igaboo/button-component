@@ -9,18 +9,19 @@ Make sure you've included the FontAwesome package in your `package.json`.
 # Examples
 
 **A button with an icon**
-
-`<Button
-&nbsp;&nbsp;text="I'm a button!"
-&nbsp;&nbsp;func={() => console.log("hello world!")}
-&nbsp;&nbsp;icons={[
-&nbsp;&nbsp;&nbsp;&nbsp;{ icon: faChevronRight },
-&nbsp;&nbsp;]}
-/>`
+```
+<Button
+  text="I'm a button!"
+  func={() => console.log("hello world!")}
+  icons={[
+    { icon: faChevronRight },
+  ]}
+/>
+```
 
 **A button with extra icons**
-
-`<Button
+```
+<Button
   text="I'm the primary button, with a few extras!"
   func={() => console.log("hello world!")}
   icons={[
@@ -29,31 +30,35 @@ Make sure you've included the FontAwesome package in your `package.json`.
     { icon: faGear },
     { icon: faXmark },
   ]}
-/>`
+/>
+```
 
 **A button with the icon on the left**
-
-`<Button
+```
+<Button
   text="Caution, it's too easy!"
   func={() => console.log("hello world!")}
   icons={[
     { icon: faExclamationCircle },
   ]}
   reverse
-/>`
+/>
+```
 
 **A text-only button**
-
-`<Button
+```
+<Button
   text="Nothing going on here."
   func={() => console.log("hello world!")}
-/>`
+/>
+```
 
 **An icon-only button**
-
-`<Button
+```
+<Button
   func={() => console.log("hello world!")}
   icons={[
     { icon: faMedal },
   ]}
-/>`
+/>
+```
