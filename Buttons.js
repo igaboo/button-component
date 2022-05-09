@@ -2,7 +2,7 @@ import styles from "./Buttons.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export function Button({ text, icons, func, reverse }) {
+export default function Button({ text, icons, func, reverse }) {
   return (
     <div className={styles.button}>
       <button onClick={func} title={text} className={reverse ? styles.rtl : ""}>
